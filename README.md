@@ -1,3 +1,5 @@
+# DYDX Trading Model
+
 This repository contains various scripts and models to submit automated orders on the dydx exchange.
 
 The project creates multiple limit orders above and below the real-time price, based on predicitons made by a machine-learning model trained on historical data.
