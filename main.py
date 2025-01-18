@@ -225,10 +225,10 @@ last_high = 0
 last_low = 0
 
 def forecast_high_ml():
-    return last_price
+    return last_price # TODO: Call machine learning model
 
 def forecast_low_ml():
-    return last_price
+    return last_price # TODO: Call machine learning model
 
 def forecast_high_simple():
     return last_price + ( last_high - last_low )*0.5
